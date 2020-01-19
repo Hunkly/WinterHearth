@@ -1,0 +1,577 @@
+.menuColor{
+  background-color: #8ebeee;
+}
+
+.header_topline {
+  background-color: #43484C;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.header_topline a {
+  color: #fff;
+}
+
+.top_header {
+  background-color: #4AAAD2;
+}
+
+.soc_buttons {
+  float: right;
+}
+
+.soc_buttons > a {
+  font-size: 26px;
+  margin-left: 8px;
+}
+
+.top_links {
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 10;
+}
+
+.top_links a:hover {
+  text-decoration: none;
+}
+
+.auth_buttons{
+  background-color: transparent;
+  border: medium none;
+  font-size: 26px;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.centered2 {
+  margin-top: 1%;
+  margin-left: 30%;
+  margin-right: 10%;
+
+}
+.footcolor{
+  color: #FDFDFF;
+}
+
+.to_right{
+  margin-left: 50%
+}
+
+.font-size{
+  font-size: 30px;
+}
+
+.headercolor{
+  background-color: #72a4d9;
+}
+
+.menufont{
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  color: #ffffff;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #389AAF;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar-inverse {
+  background: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  background: #ff7878
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand i {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+#headerwrap {
+  background: url(../img/photodune-3417976.jpg) no-repeat left top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.img1 img{
+  max-width: 120%;
+  height: auto;
+
+}
+
+.about h3{
+  font-size: 40px;
+}
+
+.about h1 {
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.about h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.wintersports h4{
+  font-size: 25px;
+}
+
+.wintersports p{
+  font-size: 20px;
+}
+
+.contacts h3{
+  font-size: 40px;
+}
+
+.contacts p{
+  font-size: 25px;
+}
+
+.contacts img{
+  width: 300px;
+}
+
+#dg {
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#ph {
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#dg h4 {
+  font-weight: 700;
+}
+
+#f {
+  background: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#f i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#f i:hover {
+  color: #ff7878;
+}
+
+.w {
+  padding-top: 35px;
+}
+
+.w h4 {
+  font-weight: 700;
+}
+
+.w i {
+  color: #ff7878;
+  font-size: 30px;
+}
+
+#copyrights {
+  background: #222222;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+}
+
+.button1{
+  width: 100px;
+}
+
+.form1{
+  width: 150px;
+}
+
+@media (min-width: 1200px) {
+  #headerwrap h1 {
+    font-size: 90px;
+  }
+
+  #headerwrap h2 {
+    font-size: 40px;
+  }
+
+  .img1 img{
+    max-width: 120%;
+    height: auto;
+  }
+
+  .about h3{
+    font-size: 40px;
+  }
+
+  .about h1 {
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+
+  .about h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .wintersports h4{
+    font-size: 25px;
+  }
+
+  .wintersports p{
+    font-size: 20px;
+  }
+
+  .contacts h3{
+    font-size: 30px;
+  }
+
+  .contacts p{
+    font-size: 20px;
+  }
+
+  .contacts img{
+    width: 300px;
+  }
+
+  .menubar a{
+    font-size: 25px;
+  }
+
+  .button1{
+    width: 100px;
+  }
+
+  .form1{
+    width: 150px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #headerwrap h1 {
+    font-size: 70px;
+  }
+
+  #headerwrap h2 {
+    font-size: 30px;
+  }
+
+  .about h3{
+    font-size: 20px;
+  }
+
+  .about h1 {
+    font-size: 40px;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .img1 img{
+    width: 100%;
+  }
+
+  .wintersports h4{
+    font-size: 20px;
+  }
+
+  .wintersports p{
+    font-size: 15px;
+  }
+
+  #menubar a{
+    font-size: 17px;
+  }
+
+  .contacts h3{
+    font-size: 25px;
+  }
+
+  .contacts p{
+    font-size: 15px;
+  }
+
+  .contacts img{
+    width: 85%;
+  }
+
+  .button1{
+    width: 75px;
+  }
+
+  .form1{
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  #headerwrap h1 {
+    font-size: 55px;
+  }
+
+  #headerwrap h2 {
+    font-size: 20px;
+  }
+
+  .about h3{
+    font-size: 16px;
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about h2 {
+    font-size: 20px;
+  }
+
+  .img1 img{
+    width: 70%;
+  }
+
+  .wintersports h4{
+    font-size: 15px;
+  }
+
+  .wintersports p{
+    font-size: 10px;
+  }
+
+  #menubar a{
+    font-size: 12px;
+  }
+
+  .contacts h3{
+    font-size: 20px;
+  }
+
+  .contacts p{
+    font-size: 15px;
+  }
+
+  .contacts img{
+    width: 70%;
+  }
+
+  #menubar a{
+    font-size: 15px;
+  }
+
+  .button1{
+    width: 50px;
+  }
+
+  .form1{
+    width: 75px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  #headerwrap h1 {
+    font-size: 45px;
+  }
+
+  #headerwrap h2 {
+    font-size: 25px;
+  }
+
+  .about h3{
+    font-size: 15px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+  }
+
+  .about h2 {
+    font-size: 15px;
+  }
+
+  .img1 img{
+    width: 55%;
+  }
+
+  .wintersports h4{
+    font-size: 15px;
+  }
+
+  .wintersports p{
+    font-size: 13px;
+  }
+
+  #menubar a{
+    font-size: 14px;
+  }
+
+  .contacts h3{
+    font-size: 20px;
+  }
+
+  .contacts p{
+    font-size: 15px;
+  }
+
+  .contacts img{
+    width: 65%;
+  }
+
+  .button1{
+    width: 50px;
+  }
+
+  .form1{
+    width: 75px;
+  }
+
+  .top_links {
+    background-color: #585d61;
+    display: none;
+    margin-top: 15px;
+    padding: 14px;
+    position: absolute;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
+
+.carousel {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.item .thumb {
+  width: 25%;
+  cursor: pointer;
+  float: left;
+}
+
+.item .thumb img {
+  width: 100%;
+  margin: 2px;
+}
+
+.item img {
+  width: 100%;
+}
